@@ -30,21 +30,13 @@ public class wolfController : MonoBehaviour {
         }
 	}
 
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player"){
             transform.localScale = new Vector3(sign, 1, 1);
-            dx = 0;
-            sign = 0;
 
-        }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            dx = 20f;
-            sign = 1;
+            sign = 0;
 
         }
     }

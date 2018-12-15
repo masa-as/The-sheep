@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour
+{
 
     Vector3 pos, pos_ito, pos_camera;
     float dirY, dirX;
@@ -28,10 +29,13 @@ public class PlayerController : MonoBehaviour {
     public int p; //woolの出現確率
     Slider _slider;
     bool swing, jump, boka_exit;
+    public GameObject Mask;
+    int mask_flag;
 
     // Use this for initialization
-    void Start () {
-        Time.timeScale = 1f;
+    void Start()
+    {
+        //Time.timeScale = 1f;
         swing = false;
         jump = false;
         boka_exit = false;
@@ -46,14 +50,25 @@ public class PlayerController : MonoBehaviour {
         rb_player.AddForce(30, 0, 0, ForceMode.Impulse);
         // スライダーを取得する
         _slider = GameObject.Find("WoolBar").GetComponent<Slider>();
+        mask_flag = 0;
     }
 
     // Update is called once per
-    void Update () {
+    void Update()
+    {
         ito_flag2 = PauseScript.GetItoFlag();
         if (Input.GetMouseButtonDown(0) && ito_flag2 == 1)
         {
             swing = true;
+            if (rb_player.velocity.y < 0)
+            {
+                Debug.Log("good");
+            }
+            if (rb_player.velocity.y > 0)
+            {
+                Debug.Log("bad");
+            }
+
         }
         if (Input.GetMouseButtonUp(0) && ito_flag2 == 1)
         {
@@ -61,14 +76,22 @@ public class PlayerController : MonoBehaviour {
             if (Random.Range(0, 100) < p)
             {
                 wool = Instantiate(woolPrefab) as GameObject;
-                wool.transform.position = new Vector3(transform.position.x + 30f, Random.Range(5.0f, 10.0f), 0f);
-            } 
+                wool.transform.position = new Vector3(transform.position.x + 65f, Random.Range(5.0f, 10.0f), 0f);
+            }
         }
     }
 
     private void FixedUpdate()
     {
-        if(swing){
+        if (mask_flag == 1)
+        {
+            Mask.transform.position += Vector3.down * 22;
+        }
+        //Debug.Log("速度ベクトル：" + rb_player.velocity.y);
+        //Debug.Log("速度：" + rb_player.velocity.magnitude);
+        if (boka_exit) { return; }
+        if (swing)
+        {
             anim.SetBool("Swinging", true);
             pos = transform.position;
             pos_ito = pos;
@@ -105,7 +128,8 @@ public class PlayerController : MonoBehaviour {
                 swing = false;
             }
         }
-        if(jump){
+        if (jump)
+        {
             anim.SetBool("Swinging", false);
             Destroy(ito);
             Destroy(joint);
@@ -125,13 +149,14 @@ public class PlayerController : MonoBehaviour {
     {
         if (collision.gameObject.name == "ground")
         {
+            mask_flag = 1;
             sceneName = "GameOver";
             waitChangeScene(1.0f);
         }
         if (collision.gameObject.name == "Goal")
         {
             pos = transform.position;
-            female.transform.position = new Vector3(pos.x+10, 0.5f, 0);
+            female.transform.position = new Vector3(pos.x + 10, 0.5f, 0);
             sceneName = "Result";
             waitChangeScene(1.2f);
             //SceneManager.LoadScene("result");
@@ -143,21 +168,35 @@ public class PlayerController : MonoBehaviour {
         if (other.gameObject.tag == "wool")
         {
             wool_count += 20f;
+            if (wool_count > 100.0f)
+            {
+                wool_count = 100.0f;
+            }
             Destroy(other.gameObject);
         }
-        if(other.gameObject.name == "wolf" && !Input.GetMouseButtonDown(0)){
+        if (other.gameObject.name == "wolf")
+        {
+            mask_flag = 1;
+            Destroy(ito);
+            Destroy(joint);
+            joint = null;
+            dirX = 0.0f;
             boka = Instantiate(bokaPrefab) as GameObject;
             boka_exit = true;
             pos = transform.position;
             boka.transform.position = pos;
+            sceneName = "GameOver";
+            waitChangeScene(1.0f);
         }
     }
 
-    private void waitChangeScene(float time){
+    private void waitChangeScene(float time)
+    {
         Invoke("changeScene", time);
     }
 
-    private void changeScene(){
+    private void changeScene()
+    {
         if (boka_exit)
         {
             Destroy(boka);

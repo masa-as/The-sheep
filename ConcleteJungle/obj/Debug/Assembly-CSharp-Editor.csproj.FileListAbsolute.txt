@@ -21,8 +21,6 @@
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.GoogleAudioSpatializer.dll
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.Graphs.dll
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.HoloLens.dll
-/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll
-/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.iOS.Extensions.dll
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.Networking.dll
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.OSXStandalone.Extensions.dll
@@ -289,7 +287,6 @@
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.VR.dll.mdb
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.VR.xml
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.Graphs.dll.mdb
-/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.iOS.Extensions.dll.mdb
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.OSXStandalone.Extensions.dll.mdb
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Photon3Unity3D.xml
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.Advertisements.dll.mdb
@@ -297,8 +294,6 @@
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.Analytics.dll.mdb
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.Purchasing.dll.mdb
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEngine.StandardEvents.dll.mdb
-/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll.mdb
-/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll.mdb
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Unity.IvyParser.dll.mdb
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
@@ -306,3 +301,8 @@
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/obj/Debug/Assembly-CSharp-Editor.csproj.CopyComplete
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/obj/Debug/Assembly-CSharp-Editor.dll
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/obj/Debug/Assembly-CSharp-Editor.pdb
+/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Vuforia.UnityExtensions.dll
+/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Vuforia.UnityExtensions.Editor.dll
+/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Vuforia.UnityExtensions.Editor.xml
+/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Vuforia.UnityExtensions.xml
+/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml

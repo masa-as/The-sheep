@@ -27,7 +27,7 @@ public class fieldController : MonoBehaviour {
     int build_counter;
 	// Use this for initialization
     void Start (){
-        Time.timeScale = 1f;
+        //Time.timeScale = 1f;
         PauseScript.ito_flag=1;
         build_counter = 0;
         for (int i = 0; i < goal_appear; i++){

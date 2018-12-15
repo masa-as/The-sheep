@@ -4,7 +4,7 @@ using System.Collections;
 public class Maskmove2 : MonoBehaviour
 {
 
-    public float speed = 10;
+    public float speed = 22;
     //public int spriteCount = 2;
     public GameObject Mask;
 

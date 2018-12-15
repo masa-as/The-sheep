@@ -206,6 +206,7 @@
     <Compile Include="Assets\PhotonChatApi\IChatClientListener.cs" />
     <Compile Include="Assets\Script\BackgroundController.cs" />
     <Compile Include="Assets\Script\BackgroundController2.cs" />
+    <Compile Include="Assets\Script\Countdown.cs" />
     <Compile Include="Assets\Script\DemoNetWork.cs" />
     <Compile Include="Assets\Script\Fadetest.cs" />
     <Compile Include="Assets\Script\fieldController.cs" />
@@ -235,16 +236,16 @@
     <None Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Assets\OpenSans\Apache License.txt" />
     <None Include="Assets\Photon Unity Networking\changelog.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/masa/The_sheep/ConcleteJungle/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/masa/The_sheep/ConcleteJungle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/masa/The_sheep/ConcleteJungle/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/masa/The_sheep/ConcleteJungle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -451,10 +452,10 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+      <HintPath>/Users/masa/The_sheep/ConcleteJungle/Assets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>/Users/masa/The_sheep/ConcleteJungle/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/masa/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

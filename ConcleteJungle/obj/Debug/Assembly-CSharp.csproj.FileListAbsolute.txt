@@ -253,3 +253,5 @@
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/websocket-sharp.dll
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Assembly-CSharp-firstpass.pdb
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Photon3Unity3D.xml
+/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Vuforia.UnityExtensions.dll
+/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Vuforia.UnityExtensions.xml

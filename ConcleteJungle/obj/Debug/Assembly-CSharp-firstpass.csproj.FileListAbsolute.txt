@@ -252,3 +252,5 @@
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/obj/Debug/Assembly-CSharp-firstpass.csproj.CopyComplete
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/obj/Debug/Assembly-CSharp-firstpass.dll
 /Users/masa/MockIronLeague2018-Team3/ConcleteJungle/obj/Debug/Assembly-CSharp-firstpass.pdb
+/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Vuforia.UnityExtensions.dll
+/Users/masa/MockIronLeague2018-Team3/ConcleteJungle/Temp/bin/Debug/Vuforia.UnityExtensions.xml
