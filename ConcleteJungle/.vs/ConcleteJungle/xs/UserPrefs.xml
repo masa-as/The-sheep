@@ -1,18 +1,23 @@
 ﻿<Properties StartupConfiguration="{516DEA56-6EB1-953A-5651-77F75F7E69BF}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Maskmove2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Maskmove.cs">
     <Files>
-      <File FileName="Assets/Script/PlayerController.cs" Line="138" Column="10" />
-      <File FileName="Assets/Script/PlayerController_Photon.cs" Line="46" Column="13" />
-      <File FileName="Assets/Script/PauseScript.cs" Line="27" Column="13" />
-      <File FileName="Assets/Script/Fadetest.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/Maskmove2.cs" Line="7" Column="28" />
+      <File FileName="Assets/Scripts/Countdown.cs" Line="19" Column="6" />
+      <File FileName="Assets/Scripts/TimerScript.cs" Line="15" Column="16" />
+      <File FileName="Assets/Scripts/PauseScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="93" Column="55" />
+      <File FileName="Assets/Scripts/ResultDirector.cs" Line="8" Column="5" />
+      <File FileName="Assets/Scripts/wolfController.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/BackgroundController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Maskmove.cs" Line="6" Column="5" />
+      <File FileName="Assets/Photon Unity Networking/Editor/PhotonNetwork/PhotonEditor.cs" Line="194" Column="22" />
+      <File FileName="Assets/Scripts/Maskmove2.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>

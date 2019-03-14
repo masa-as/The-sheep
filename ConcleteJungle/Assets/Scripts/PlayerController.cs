@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     Slider _slider;
     bool swing, jump, boka_exit;
     public GameObject Mask;
+    public GameObject Mask2;
     int mask_flag;
 
     // Use this for initialization
@@ -85,8 +86,13 @@ public class PlayerController : MonoBehaviour
     {
         if (mask_flag == 1)
         {
-            Mask.transform.position += Vector3.down * 22;
+            Mask2.transform.position += Vector3.down * 22;
         }
+        if (mask_flag == 2)
+        {
+            Mask.transform.position += Vector3.up * 22;
+        }
+
         //Debug.Log("速度ベクトル：" + rb_player.velocity.y);
         //Debug.Log("速度：" + rb_player.velocity.magnitude);
         if (boka_exit) { return; }
@@ -155,10 +161,11 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.name == "Goal")
         {
+            mask_flag = 2;
             pos = transform.position;
             female.transform.position = new Vector3(pos.x + 10, 0.5f, 0);
             sceneName = "Result";
-            waitChangeScene(1.2f);
+            waitChangeScene(1.0f);
             //SceneManager.LoadScene("result");
         }
     }
