@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     public GameObject Mask;
     public GameObject Mask2;
     int mask_flag;
+    public static int mask_speed = 22;
 
     // Use this for initialization
     void Start()
@@ -86,11 +87,11 @@ public class PlayerController : MonoBehaviour
     {
         if (mask_flag == 1)
         {
-            Mask2.transform.position += Vector3.down * 22;
+            Mask2.transform.position += Vector3.down * mask_speed;
         }
         if (mask_flag == 2)
         {
-            Mask.transform.position += Vector3.up * 22;
+            Mask.transform.position += Vector3.up * mask_speed;
         }
 
         //Debug.Log("速度ベクトル：" + rb_player.velocity.y);
