@@ -768,7 +768,7 @@ MonoBehaviour:
     type: 3}
   build_e_pre: {fileID: 1419439149939756, guid: 22587b65923024823986147ea6073022,
     type: 3}
-  goal_appear: 1
+  goal_appear: 20
   goal: {fileID: 1371137884}
   ceiling: {fileID: 1402106436}
   ground: {fileID: 959274770}
