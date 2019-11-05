@@ -206,14 +206,15 @@
     <Compile Include="Assets\PhotonChatApi\IChatClientListener.cs" />
     <Compile Include="Assets\Scripts\BackgroundController.cs" />
     <Compile Include="Assets\Scripts\BackgroundController2.cs" />
+    <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\Countdown.cs" />
     <Compile Include="Assets\Scripts\DemoNetWork.cs" />
     <Compile Include="Assets\Scripts\Fadetest.cs" />
-    <Compile Include="Assets\Scripts\fieldController.cs" />
-    <Compile Include="Assets\Scripts\finishDirector.cs" />
+    <Compile Include="Assets\Scripts\FieldController.cs" />
+    <Compile Include="Assets\Scripts\FinishDirector.cs" />
     <Compile Include="Assets\Scripts\Maskmove.cs" />
     <Compile Include="Assets\Scripts\Maskmove2.cs" />
-    <Compile Include="Assets\Scripts\multiController.cs" />
+    <Compile Include="Assets\Scripts\MultiController.cs" />
     <Compile Include="Assets\Scripts\NetworkPlayer.cs" />
     <Compile Include="Assets\Scripts\PauseScript.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
@@ -227,7 +228,7 @@
     <Compile Include="Assets\Scripts\TimerScript.cs" />
     <Compile Include="Assets\Scripts\TitleController.cs" />
     <Compile Include="Assets\Scripts\Whiteballmover.cs" />
-    <Compile Include="Assets\Scripts\wolfController.cs" />
+    <Compile Include="Assets\Scripts\WolfController.cs" />
     <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
     <None Include="Assets\Photon Unity Networking\link.xml" />
     <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />

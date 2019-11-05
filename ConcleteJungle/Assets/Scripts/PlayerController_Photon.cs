@@ -6,10 +6,9 @@ using UnityEngine.UI;
 
 public class PlayerController_Photon : MonoBehaviour {
 
-    Vector3 pos, pos_ito, pos_camera;
+    Vector3 pos, pos_ito;
     float dirY, dirX;
     float leng;
-    float target_pos;
     public GameObject ceiling;
     public GameObject woolPrefab;
     public GameObject bokaPrefab;
@@ -55,8 +54,6 @@ public class PlayerController_Photon : MonoBehaviour {
         female = GameObject.Find("female");
         ceiling_pos = ceiling.transform.position;
         anim = GetComponent<Animator>();
-        pos_camera = Camera.main.transform.position;
-        target_pos = pos_camera.x;
         rb_player = GetComponent<Rigidbody>();
         rb_player.AddForce(30, 0, 0, ForceMode.Impulse);
 	}
@@ -147,8 +144,6 @@ public class PlayerController_Photon : MonoBehaviour {
                 rb_player.AddForce(10f, 0, 0, ForceMode.Impulse);
                 jump = false;
             }
-            pos_camera.x = transform.position.x + 20;
-            Camera.main.transform.position = pos_camera;
             _slider.value = wool_count / 100;
         }
 

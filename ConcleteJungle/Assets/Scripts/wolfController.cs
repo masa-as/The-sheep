@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class wolfController : MonoBehaviour {
+public class WolfController : MonoBehaviour {
 
     private Vector3 pos;
     private int sign;

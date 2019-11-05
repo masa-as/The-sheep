@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class fieldController : MonoBehaviour {
+public class FieldController : MonoBehaviour {
 
     public GameObject build_a_pre;
     public GameObject build_b_pre;

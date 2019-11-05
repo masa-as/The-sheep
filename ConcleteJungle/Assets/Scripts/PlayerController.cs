@@ -7,10 +7,9 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
 
-    Vector3 pos, pos_ito, pos_camera;
+    Vector3 pos, pos_ito;
     float dirY, dirX;
     float leng;
-    float target_pos;
     public GameObject ceiling;
     public GameObject woolPrefab;
     public GameObject bokaPrefab;
@@ -46,8 +45,6 @@ public class PlayerController : MonoBehaviour
         ceiling = GameObject.Find("ceiling");
         ceiling_pos = ceiling.transform.position;
         anim = GetComponent<Animator>();
-        pos_camera = Camera.main.transform.position;
-        target_pos = pos_camera.x;
         rb_player = GetComponent<Rigidbody>();
         rb_player.AddForce(30, 0, 0, ForceMode.Impulse);
         // スライダーを取得する
@@ -145,8 +142,6 @@ public class PlayerController : MonoBehaviour
             jump = false;
 
         }
-        pos_camera.x = transform.position.x + 20;
-        Camera.main.transform.position = pos_camera;
 
         //ウールバー長さ更新
         _slider.value = wool_count / 100;
